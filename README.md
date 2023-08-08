@@ -7,25 +7,25 @@ npm install
 npm start  
 npm run start:dev  
 
-## We receive and display the entire list of contacts in a table format (console.table).
+## We receive and display the entire list of contacts in a table format (console.table)
 
 `node index.js --action list`
 
 ![Contact list](assets/list.png)
 
-## We retrieve a contact by ID.
+## We retrieve a contact by ID
 
 `node index.js --action get --id 05olLMgyVQdWRwgKfg5J6`
 
 ![Get contact by Id](assets/get-by-id.png)
 
-## We add a contact.
+## We add a contact
 
 `node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22`
 
 ![Add new contact](assets/add-new-contact.png)
 
-## We delete a contact.
+## We delete a contact
 
 `node index.js --action remove --id qdggE76Jtbfd9eWJHrssH`
 
